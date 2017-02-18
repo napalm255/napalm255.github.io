@@ -102,8 +102,6 @@
       level: 3
     - name: DNS
       level: 3
-    - name: SSH, RDP, VNC, S/FTP, TFTP
-      level: 4
 
 - title: Databases
   items:
