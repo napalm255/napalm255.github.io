@@ -19,6 +19,11 @@
         audit reports,
         re-routing VoIP traffic
         and more.'
+    - 'Automated F5 configuration and management using the REST API and SSH
+      with various languages and methods including PHP, Python and Ansible.'
+    - 'Created operations dashboard using PHP and Bootstrap to show
+      on-call information, speed tests, email forms for incident and
+      maintenance notifications, website status information and more.'
     - 'Lead and manage projects by organizing meetings, documenting processes
       and procedures, arranging schedules and coordinating maintenances and
       verifications across multiple teams.'
@@ -29,9 +34,15 @@
       datacenters. Switched to a top of the rack design, reduced footprint
       and conslidated racks. Upgraded from a 1GB Cisco IOS switched network
       to a 10GB Cisco Nexus switched network.'
+    - 'Relocated headquarter office and the datacenter to a new a building.
+      Inventoried existing infrastructure and reduced clutter prior to move.
+      Worked closely with executive management and vendors to ensure proper
+      installation. Planned and coordinated copper and fiber cabling. Setup
+      and installed new user switches.'
     - 'Planned and performed a Cisco router upgrade to the wide area network
       between three datacenters.'
-    - 'Design, plan and execute an office and datacenter relocation.'
+    - 'Use Solarwinds to monitor servers and network devices. Administer nodes,
+      views and access. Perform troublshooting and upgrades.'
 
 - title: Enterprise Network Manager
   org: BiTH Group, Full Circle, Digicon Corporation
