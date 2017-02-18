@@ -200,7 +200,7 @@ a {
 }
 
 .edu .list-more .deg:before {
-    content: '\f0a3'; /* star */
+    content: '&#xf0a3'; /* fa-certificate */
     padding-right: 0.5em;
 }
 
