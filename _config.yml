@@ -9,3 +9,6 @@ description: Brad Gibson's Resume
 highlighter: rouge
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+gems:
+  - jekyll-pdf
