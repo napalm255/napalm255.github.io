@@ -13,3 +13,9 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 gems:
   - jekyll-pdf
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      pdf: true
