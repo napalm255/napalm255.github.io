@@ -100,7 +100,7 @@
       level: 3
     - name: Docker
       level: 1
-    - name: VMWare ESXi/vCenter
+    - name: VMWare
       level: 2
     - name: Windows
       level: 3
