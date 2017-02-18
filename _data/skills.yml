@@ -44,6 +44,12 @@
       level: 2
     - name: Geckoboard
       level: 3
+    - name: PagerDuty
+      level: 3
+    - name: Slack
+      level: 2
+    - name: HipChat
+      level: 2
 
 - title: Continuous Delivery
   items:

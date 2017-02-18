@@ -12,18 +12,27 @@
       configuration management, orchestration and various ad-hoc tasks.'
     - 'Develop and maintain ad-hoc jobs in Jenkins using Ansible to perform
       automated tasks such as
-        Cisco configuration backups stored in Bitbucket,
-        Checkpoint configuration backups stored in Bitbucket,
+        Cisco and Checkpoint configuration backups stored in Bitbucket,
         Checkpoint log backup and rotation,
         network device validation,
         audit reports,
         re-routing VoIP traffic
         and more.'
+    - 'Learned and practice principles and methods like Agile, Scrum and
+      Kanban. Use tools such as Jira, Confluence and BitBucket.'
     - 'Automated F5 configuration and management using the REST API and SSH
       with various languages and methods including PHP, Python and Ansible.'
+    - 'Lead a 3 person team, including myself, to successfully run a proof of
+      concept in less than 30 days to automate the deployment and run one of
+      our web applications in AWS. We used Jenkins, Puppet, Cloudformation,
+      Load Balancers (ELB vs F5).'
     - 'Created operations dashboard using PHP and Bootstrap to show
       on-call information, speed tests, email forms for incident and
       maintenance notifications, website status information and more.'
+    - 'Used Tripwire to track and audit changes to servers and network
+      devices. Switched to UpGuard to leverage the Jira integration and REST
+      api to automate adding and deleting nodes, running scans, report
+      generation, and more.'
     - 'Lead and manage projects by organizing meetings, documenting processes
       and procedures, arranging schedules and coordinating maintenances and
       verifications across multiple teams.'
@@ -42,7 +51,17 @@
     - 'Planned and performed a Cisco router upgrade to the wide area network
       between three datacenters.'
     - 'Use Solarwinds to monitor servers and network devices. Administer nodes,
-      views and access. Perform troublshooting and upgrades.'
+      views and access. Perform troublshooting and upgrades. Use ExtraHop to
+      monitor network traffic performance and track errors. Use Splunk for
+      log aggregation and alerting.'
+    - 'Represent the Network Engineering team in weekly change request
+      meetings. Automated a daily report of change requests and the current
+      status.'
+    - 'Perform routine network administration tasks such as whitelisting ip
+      addresses and urls in firewalls, cisco acls, and blue coat proxies.
+      Review firewall logs and troubleshoot connectivity and access issues.
+      Configure switch ports, review logs and check for errors.'
+    - 'Rack and stack servers, SANs, and network equipment.'
 
 - title: Enterprise Network Manager
   org: BiTH Group, Full Circle, Digicon Corporation
