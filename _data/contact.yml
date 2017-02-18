@@ -1,0 +1,20 @@
+---
+- title: Email
+  items:
+    - label: bgibson255@gmail.com
+      link: mailto:bgibson255@gmail.com
+
+- title: Github
+  items:
+    - label: napalm255
+      link: https://github.com/napalm255
+
+- title: LinkedIn
+  items:
+    - label: bgibson
+      link: https://www.linkedin.com/in/bgibson
+
+- title: Website
+  items:
+    - label: naponline.net
+      link: http://naponline.net

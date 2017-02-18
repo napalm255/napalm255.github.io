@@ -1,0 +1,42 @@
+---
+- title: ONLC Training Centers
+  startTime: 2016
+  endTime: 2016
+  courses:
+    - Introduction to Python 3
+    - Advanced Python 3 Programming
+
+- title: Global Knowledge
+  startTime: 2015
+  endTime: 2015
+  courses:
+    - Implementing Microsoft Azure Infrastructure Solutions
+
+- title: Global Knowledge
+  startTime: 2014
+  endTime: 2014
+  courses:
+    - Architecting on AWS
+
+- title: Secure Ninja
+  deg: EC-Council CEH Certified
+  startTime: 2013
+  endTime: 2013
+  courses:
+    - Certified Ethical Hacker
+
+- title: Global Knowledge
+  startTime: 2012
+  endTime: 2012
+  courses:
+    - F5 Local Traffic Manager
+
+- title: Frederick Community College
+  deg:
+    - Cisco Certified Network Associate
+    - Microsoft Certified Professional
+  startTime: 2000
+  endTime: 2001
+  courses:
+    - CCNA Networking Academy
+    - MCSE 2000 Track

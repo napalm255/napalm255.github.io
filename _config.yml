@@ -1,0 +1,11 @@
+markdown: kramdown
+
+name: Brad Gibson
+position: DevOps Engineer
+
+title: Brad's Resume
+description: Brad Gibson's Resume
+
+highlighter: rouge
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

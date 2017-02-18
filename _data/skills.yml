@@ -1,0 +1,124 @@
+---
+- title: Languages
+  items:
+    - name: Python
+      level: 3
+    - name: Bash
+      level: 3
+    - name: PHP
+      level: 3
+    - name: Perl
+      level: 2
+    - name: ASP
+      level: 2
+    - name: C#
+      level: 2
+    - name: VB.NET
+      level: 2
+    - name: SQL
+      level: 2
+    - name: Batch
+      level: 2
+
+- title: Services
+  items:
+    - name: AWS
+      level: 3
+    - name: Azure
+      level: 2
+    - name: GitHub
+      level: 3
+    - name: Bitbucket
+      level: 3
+    - name: Confluence
+      level: 3
+    - name: Jira
+      level: 3
+    - name: Cloudflare
+      level: 2
+    - name: Pyup
+      level: 3
+    - name: Read the Docs
+      level: 2
+
+- title: Continuous Delivery
+  items:
+    - name: Ansible
+      level: 3
+    - name: Puppet
+      level: 3
+    - name: Jenkins
+      level: 3
+    - name: Travis CI
+      level: 3
+    - name: Cloudformation
+      level: 3
+    - name: Agile, Scrum
+      level: 3
+
+- title: Web
+  items:
+    - name: HTML
+      level: 3
+    - name: CSS
+      level: 3
+    - name: JavaScript
+      level: 2
+    - name: jQuery
+      level: 2
+    - name: Jekyll
+      level: 1
+
+- title: Networking
+  items:
+    - name: Switching
+      level: 3
+    - name: Routing
+      level: 3
+    - name: Wireless
+      level: 3
+    - name: Cisco
+      level: 3
+    - name: Checkpoint
+      level: 3
+    - name: F5 LTM, GTM
+      level: 3
+    - name: Content Filtering
+      level: 3
+    - name: IPS
+      level: 2
+
+- title: Systems
+  items:
+    - name: Linux
+      level: 3
+    - name: VMWare ESXi/vCenter
+      level: 2
+    - name: Windows
+      level: 3
+    - name: Apache, Nginx, Lighttpd
+      level: 3
+    - name: Active Directory
+      level: 3
+    - name: DNS
+      level: 3
+    - name: SSH, RDP, VNC, S/FTP, TFTP
+      level: 4
+
+- title: Databases
+  items:
+    - name: DynamoDB
+      level: 2
+    - name: MySQL/MariaDB
+      level: 2
+    - name: MSSQL
+      level: 2
+    - name: Oracle
+      level: 0
+
+- title: Misc
+  items:
+    - name: VIM
+      level: 3
+    - name: Regular Expressions
+      level: 3

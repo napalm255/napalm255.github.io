@@ -1,0 +1,144 @@
+---
+- title: DevOps/Network Engineer
+  org: Promontory Interfinancial Network
+  startTime: Aug 2012
+  endTime: Present
+  desc: ''
+
+- title: Enterprise Network Manager
+  org: BiTH Group, Full Circle, Digicon Corporation
+  startTime: Mar 2001
+  endTime: Aug 2012
+  desc:
+    - "Contracted to Baltimore City Mayor's Office of Information Technology."
+    - 'Promoted from Workstation Engineer to Server/Database Engineer
+      to Wide Area Network Engineer to Enterprise Network Manager.'
+    - 'Manage and oversee all network (WAN and LAN), fiber/copper
+      infrastructure and datacenter operations. Manage tasks, time and
+      responsibilities for the network team. Responsible for defining work
+      plans and deadlines for staff as well as training curriculums.'
+    - 'Responsible for defining standards and security models for the
+      Enterprise, as well as implementing and monitoring. Generates and
+      reviews reports on network activity – statistic graphing as well as
+      written reports. Write project proposals and justifications for
+      executive managerial approval. Advise executive management on
+      issues, flaws or desired/required upgrades.'
+    - 'Work with vendors to evaluate and demo new technologies. Develop
+      evaluation strategies for most efficiency. Determine if the product
+      has any validity in the environment – Feature Set, Cost, ROI, TCO, etc.'
+    - 'Responsible for installing, configuring and maintaining over 700 Cisco
+      network switches, routers and firewalls. Manage and oversee all network
+      related tasks and projects. Project management lead for network
+      installations in new buildings, renovations and upgrades – tasks
+      include managing fiber vendors, cabling vendors and designing,
+      configuring and deploying network infrastructure. Perform routine
+      network maintenance, monitoring and backups using such tools as
+      Solarwinds Orion NPM, RANCID and other custom/self-written scripts and
+      utilities using PHP and Perl.'
+    - 'Designed, configured, deployed and actively maintain a
+      TopLayer (now Corero) IPS appliance solution in a wrapped firewall
+      methodology protecting three ISP connections, two DMZs and
+      the internal network.'
+    - 'Responsible for the Baltimore Police Department’s CCTV camera network.
+      Handle new fiber or wireless camera installations and network
+      connectivity. Work with other local or state departments for firewalled
+      access in and out of camera networks.'
+    - 'Responsible for designing, deploying and managing network connectivity
+      for the Command Centers at the first ever Grand Prix Race in Baltimore
+      City. Provided resources for the Police and Fire Departments
+      along with OEM, DPW, DOT and many others.'
+    - 'Handle emergency response situations for network connectivity in the
+      event of fiber cuts, weather related damage, fires, etc. typically by
+      deploying cellular or point-to-point wireless solutions. Designing and
+      installing a City wide VoIP solution using Cisco Servers,
+      Gateways/Routers, and Switches. Redundancy using SRST and local POTS
+      and/or PRI lines and a combination of E911 and local 911. Using a
+      combination of SIP trunks and PRI circuits eventually converting entirely
+      to SIP trunks. The project also upgrades and standardizes on
+      3560X or 3750X series switches for all VoIP and Data services.'
+    - 'Designing and planning a Core upgrade from a Cisco 6509E to a Nexus 7010.
+      Designing and planning a multi-datacenter consolidation and outsourcing.
+      Upgrading backbone services to ten gigabit. Designing and installing a new
+      fiber ring upgrading all Fire Houses from broadband to gigabit fiber.
+      Upgrading equipment to new PoE capable switches for future VoIP support.'
+    - 'Designed, configured and deployed a successful DMVPN solution using two
+      redundant Cisco 7206VXR hub routers with multiple ISP support at the
+      hub (core) and spokes (facilities). VPN support using EasyVPN and L2TP
+      for client access. Migrated from Checkpoint SecureRemote/SecureClient to
+      L2TP as the primary client access VPN method. IPSEC/GRE VPN tunnels with
+      EIGRP are used for spokes.'
+    - 'Designed, configured and deployed an enterprise wireless solution using
+      redundant internal Cisco wireless controllers along with a guest anchor
+      controller and a WCS server leveraging LWAPP. Active directory
+      authentication used for internal access via radius.'
+    - 'Upgraded the network core from a Cisco 6506 to a Cisco 6509E.
+      Performed a CatOS to Cisco IOS conversion on the Cisco 6506. Consolidated
+      "Outside Agency" resources from multiple Cisco 1700s, 1800s, 3550s to a
+      single Cisco 6506.'
+    - 'Performed numerous Checkpoint Firewall upgrades involving new software
+      and/or new hardware. Actively maintain and monitor a clustered Checkpoint
+      Firewall solution.'
+    - 'Converted the network from a Layer 2 network to a Layer 3 network using
+      OSPF and EIGRP.'
+    - 'Decommissioned over 100+ media converters, replacing them with SFPs or
+      GBICs. Performed IP migrations from static to dhcp as well as one subnet
+      to another.'
+    - 'Responsible for setting up multi-vendor racks (Dell, HP, Compaq, APC,
+      etc.) and racking multi-vendor equipment.'
+    - 'Manage several Linux (Ubuntu, Redhat, FreeBSD, NetBSD) installations for
+      various functions like TACACS+, NTP, TFTP, Apache, Lighttpd, Mailman,
+      etc.'
+    - 'Designed and implemented a full VMWare ESX and SAN environment and
+      responsible for consolidating over fifty physical servers.'
+    - 'Wrote an application called "COB-MGMT", first written in VBScript as a
+      remote polling script, then modified as a Perl Windows service, then
+      re-written to C# as a Windows service. A custom ASP web interface for
+      settings management and information viewing with filters and export
+      functions. The service is pushed out by a patch management application,
+      Patchlink, to all 5,000+ workstations, as well as the several hundred
+      servers. The application manages local credentials, records workstation
+      information and allows remote functions for file and registry changes.
+      Uses a SQL database backend for settings and collection information.'
+    - 'Wrote a Windows service using C# to monitor defined Active Directory
+      groups and send emails alerting system administrators of changes.'
+    - 'Wrote a custom knowledge base application in ASP for the PC Technicians
+      to track problems and resolutions. The data was later migrated to PHPBB.'
+    - 'Managed and performed projects involving full workstation, server and
+      network assessments. Wrote several scripts and applications to automate
+      information gathering and setting changes affecting thousands of
+      workstations and hundreds of servers. Responsible for designing and
+      planning server installations or upgrades. Responsible for server and
+      client troubleshooting in a Windows (Primarily), Linux and MAC
+      environment. Managed file servers with custom shares and disk plus file
+      level quotes.  Responsible for maintaining Print Servers, File Servers,
+      Application Servers, Citrix/Terminal Servers, Oracle and SQL Servers,
+      Domain Controllers, GIS Servers, SANs, etc. Installed and configured an
+      EMC, HP and a 3Par SAN using Brocade SAN switches. Responsible for
+      backups using Tape Libraries (DLT, LTO) via SCSI and Fiber Channel,
+      using Backup Exec 8.6 and 10d. Monitored servers using tools like
+      ipMonitor, What’s Up Gold/Professional, Solarwinds and Quest Software
+      (ex. Spotlight). Wrote and designed the Mayor’s Office of Information
+      Technology’s internal Intranet site. Site contains forms for Server and
+      Network Change Control, User Account Requests, Workstation Standards,
+      etc.'
+    - 'Team member assisting with the design, planning and implementation of
+      Exchange 2003. Assisted with Outlook profile migrations and client
+      access.'
+    - 'Team member responsible for designing, configuring and deploying the
+      Microsoft Windows 2000 Active Directory for over 8,000 people and 5,000
+      workstations. Managed teams and performed migrations from approximately
+      twenty unique NT domains into a single common domain. Handled User,
+      Computer, Group or OU modifications.'
+
+- title: Network Administrator
+  org: Invensys-Pritchett
+  startTime: Aug 2000
+  endTime: Mar 2001
+  desc:
+    - 'Handled all day to day tasks on all servers and workstations.
+      Administered and maintained the Windows NT 4.0 domain. Wrote custom login
+      scripts to automate drive mapping and application settings. Setup and
+      managed backups using Veritas Backup Exec 7.5.  Maintained a virus free
+      environment using Norton AntiVirus Corporate Edition 7.0/7.5. Performed
+      routine workstation builds, upgrades and patching. Wrote custom inventory
+      management system in Access 2000.'
