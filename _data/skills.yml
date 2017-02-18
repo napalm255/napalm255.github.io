@@ -19,6 +19,8 @@
       level: 2
     - name: Batch
       level: 2
+    - name: Regular Expressions
+      level: 3
 
 - title: Services
   items:
@@ -130,5 +132,7 @@
   items:
     - name: VIM
       level: 3
-    - name: Regular Expressions
+    - name: Git
+      level: 3
+    - name: tmux
       level: 3
