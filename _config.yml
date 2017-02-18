@@ -19,3 +19,7 @@ defaults:
       path: ""
     values:
       pdf: true
+
+pdf:
+  cache: false
+  page_size: Letter
