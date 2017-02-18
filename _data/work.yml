@@ -3,7 +3,22 @@
   org: Promontory Interfinancial Network
   startTime: Aug 2012
   endTime: Present
-  desc: ''
+  desc:
+    - 'Develop and maintain web application deployment pipelines.'
+    - 'Develop Ansible roles, playbooks and modules.'
+    - 'Develop and maintain ad-hoc jobs in Jenkins which use Ansible for
+      performing automated tasks:
+        Cisco configuration backups stored in Bitbucket,
+        Checkpoint configuration backups stored in Bitbucket,
+        Checkpoint log backup and rotation,
+        Network device validation,
+        User audit reports, Re-routing VoIP traffic'
+    - 'Perform routine maintenance and patching on network equipment such as
+      Cisco switches and routers, F5 LTM, F5 GTM, Blue Coat, RSA and
+      Checkpoint for bugfixes and vulnerabilities.'
+    - 'Design, plan and implement a 10GB Cisco Nexus switch upgrade in three
+      datacenters and WAN router upgrades.'
+    - 'Design, plan and execute an office and datacenter relocation.'
 
 - title: Enterprise Network Manager
   org: BiTH Group, Full Circle, Digicon Corporation

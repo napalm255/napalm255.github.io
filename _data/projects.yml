@@ -3,6 +3,10 @@
   link: https://powerbash.org
   desc: a fast, purley bash powerline-style bash prompt
 
+- title: geckoboard
+  link: https://pypi.python.org/pypi/geckoboard
+  desc: Geckoboard API Interface (Unofficial)
+
 - title: naponline
   link: https://naponline.net
   desc: misc projects and playground.

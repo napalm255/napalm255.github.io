@@ -40,6 +40,8 @@
       level: 3
     - name: Read the Docs
       level: 2
+    - name: Geckoboard
+      level: 3
 
 - title: Continuous Delivery
   items:
@@ -54,6 +56,10 @@
     - name: Cloudformation
       level: 3
     - name: Agile, Scrum
+      level: 3
+    - name: Vagrant
+      level: 3
+    - name: VirtualBox
       level: 3
 
 - title: Web
@@ -92,6 +98,8 @@
   items:
     - name: Linux
       level: 3
+    - name: Docker
+      level: 1
     - name: VMWare ESXi/vCenter
       level: 2
     - name: Windows
@@ -102,6 +110,10 @@
       level: 3
     - name: DNS
       level: 3
+    - name: Tripwire
+      level: 2
+    - name: UpGuard
+      level: 2
 
 - title: Databases
   items:
