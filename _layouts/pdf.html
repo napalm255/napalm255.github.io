@@ -1,0 +1,45 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="{{ site.name }}">
+  <meta name="description" content="{{ site.description }}">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/main.css"/>
+</head>
+
+<body>
+  <div id="header" class="header">
+    <div class="header-container">
+  	  <div class="flex-left">
+        <h1>{{ site.name }}</h1>
+        <span class="tagline">{{ site.position }}</span>
+  	  </div>
+  	  <div class="flex-right">
+  	    <img class="pic" src="images/user.png"></img>
+  	  </div>
+    </div>
+  </div>
+
+  <div id="content">
+
+  {% include contact.html %}
+  {% include skills.html %}
+  {% include work.html %}
+  {% include education.html %}
+  {% include projects.html %}
+
+  </div>
+  <footer>
+    <a href="{{ page.pdf_url }}">Download PDF</a>
+  </footer>
+
+</body>
+</html>
