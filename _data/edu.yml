@@ -40,3 +40,10 @@
   courses:
     - CCNA Networking Academy
     - MCSE 2000 Track
+
+- title: Self Study
+  deg:
+    - Network+
+    - A+
+  startTime: 2000
+  endTime: 2000
