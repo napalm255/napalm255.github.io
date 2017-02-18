@@ -4,20 +4,33 @@
   startTime: Aug 2012
   endTime: Present
   desc:
-    - 'Develop and maintain web application deployment pipelines.'
-    - 'Develop Ansible roles, playbooks and modules.'
-    - 'Develop and maintain ad-hoc jobs in Jenkins which use Ansible for
-      performing automated tasks:
+    - 'Develop and maintain web application deployment pipelines. Build code,
+      rebuild vmware virtual machines, deploy code, test, and changed traffic
+      via F5 LTM. Blue/Green deployment strategies were used to help facilitate
+      any-time deployments.'
+    - 'Develop and maintain Ansible roles, playbooks and modules for
+      configuration management, orchestration and various ad-hoc tasks.'
+    - 'Develop and maintain ad-hoc jobs in Jenkins using Ansible to perform
+      automated tasks such as
         Cisco configuration backups stored in Bitbucket,
         Checkpoint configuration backups stored in Bitbucket,
         Checkpoint log backup and rotation,
-        Network device validation,
-        User audit reports, Re-routing VoIP traffic'
+        network device validation,
+        audit reports,
+        re-routing VoIP traffic
+        and more.'
+    - 'Lead and manage projects by organizing meetings, documenting processes
+      and procedures, arranging schedules and coordinating maintenances and
+      verifications across multiple teams.'
     - 'Perform routine maintenance and patching on network equipment such as
       Cisco switches and routers, F5 LTM, F5 GTM, Blue Coat, RSA and
       Checkpoint for bugfixes and vulnerabilities.'
-    - 'Design, plan and implement a 10GB Cisco Nexus switch upgrade in three
-      datacenters and WAN router upgrades.'
+    - 'Designed, planned and lead team to perform a network upgrade in three
+      datacenters. Switched to a top of the rack design, reduced footprint
+      and conslidated racks. Upgraded from a 1GB Cisco IOS switched network
+      to a 10GB Cisco Nexus switched network.'
+    - 'Planned and performed a Cisco router upgrade to the wide area network
+      between three datacenters.'
     - 'Design, plan and execute an office and datacenter relocation.'
 
 - title: Enterprise Network Manager
