@@ -200,7 +200,7 @@ a {
 }
 
 .edu .list-more .deg:before {
-    content: '\2605;'; /* star */
+    content: '\2605'; /* star */
     padding-right: 0.5em;
 }
 
