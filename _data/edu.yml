@@ -1,10 +1,24 @@
 ---
+- title: Global Knowledge
+  startTime: 2020
+  endTime: 2020
+  courses:
+    - Advanced Architecting on AWS
+
 - title: Self Study
   deg:
     - AWS Certified Solutions Architect - Associate
     - AWS Certified Cloud Practitioner
   startTime: 2018
   endTime: 2018
+
+- title: AWS:reInvent
+  startTime: 2018
+  endTime: 2018
+
+- title: AWS:reInvent
+  startTime: 2017
+  endTime: 2017
 
 - title: ONLC Training Centers
   startTime: 2016
