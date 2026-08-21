@@ -1,27 +1,12 @@
-<!-- projects -->
-  <div class="category projects">
-    <div class="cat-title">
-      <span class="cat-name">Projects</span>
-      <span class="cat-head-line"></span>
-    </div>
-    <div class="cat-body">
+<section class="projects" aria-labelledby="projects-title">
+  <h2 class="section-title" id="projects-title">Projects</h2>
 
-    {% for p in site.data.projects %}
-      <div class="listing">
-        <div class="list-icon"></div>
-        <div class="list-item">
-          <div class="title">{{ p.title }}</div>
-          <div class="item-with-time">
-            <span class="item"><a href="{{ p.link }}">{{ p.link }}</a></span>
-            <span class="time"></span>
-          </div>
-          <div class="list-more block">
-            {{ p.desc }}
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-
-    </div>
-  </div>
-<!-- end -->
+  {% for p in site.data.projects %}
+  <article class="entry">
+    <h3>
+      {% if p.link %}<a href="{{ p.link }}">{{ p.title | escape }}</a>{% else %}{{ p.title | escape }}{% endif %}
+    </h3>
+    <p>{{ p.desc | escape }}</p>
+  </article>
+  {% endfor %}
+</section>

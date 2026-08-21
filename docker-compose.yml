@@ -1,0 +1,17 @@
+services:
+  site:
+    build: .
+    command: bundle exec jekyll serve --livereload --host 0.0.0.0
+    # The image runs as root, so without this every generated file (_site/,
+    # .jekyll-cache/) lands root-owned on the host bind mount.
+    # Using rootless podman instead of Docker? Drop this line — container root
+    # already maps to your host user there.
+    user: "${UID:-1000}:${GID:-1000}"
+    environment:
+      # HOME=/root isn't writable for a non-root uid; bundler needs somewhere.
+      HOME: /tmp
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4000:4000"
+      - "35729:35729"

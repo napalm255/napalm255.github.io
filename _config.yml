@@ -9,4 +9,18 @@ description: Brad Gibson's Resume
 
 highlighter: rouge
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+url: https://begibson.com
+baseurl: ""
+
+# Without this, GitHub Pages applies jekyll-theme-primer by default and publishes
+# its ~136KB stylesheet, which this site never references. It supplies no layouts
+# or includes we use, so turning it off just drops dead weight.
+theme: null
+
+# Jekyll 3 REPLACES the default exclude list rather than appending to it, so the
+# vendor/ and node_modules entries below must be kept — without them a vendored
+# bundle or npm install would get published to the live site.
+exclude: ['README.md', 'AGENTS.md', 'Gemfile', 'Gemfile.lock',
+          'Dockerfile', 'docker-compose.yml',
+          'vendor/bundle/', 'vendor/cache/', 'vendor/gems/', 'vendor/ruby/',
+          'node_modules/']

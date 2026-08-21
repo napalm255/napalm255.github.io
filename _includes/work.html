@@ -1,29 +1,19 @@
-<!-- work experience -->
-  <div class="category work">
-    <div class="cat-title">
-      <span class="cat-name">Work</span>
-      <span class="cat-head-line"></span>
-    </div>
-    <div class="cat-body">
+<section class="work" aria-labelledby="work-title">
+  <h2 class="section-title" id="work-title">Work Experience</h2>
 
-    {% for w in site.data.work %}
-      <div class="listing">
-        <div class="list-icon"></div>
-        <div class="list-item">
-          <div class="title">{{ w.title }}</div>
-          <div class="item-with-time">
-            <span class="item">{{ w.org }}</span>
-            <span class="time">{{ w.startTime }}<span class="longdash"></span>{{ w.endTime }}</span>
-          </div>
-          <div class="list-more block">
-            {% for d in w.desc %}
-              <p>{{ d }}</p>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
+  {% for w in site.data.work %}
+  <article class="entry">
+    <div class="entry-head">
+      <h3>{{ w.title | escape }} <span class="org">&middot; {{ w.org | escape }}</span></h3>
+      <span class="time">
+        {{ w.startTime | escape }}{% if w.endTime and w.endTime != w.startTime %}&ndash;{{ w.endTime | escape }}{% endif %}
+      </span>
+    </div>
+    <ul class="bullets">
+    {% for d in w.desc %}
+      <li>{{ d | escape }}</li>
     {% endfor %}
-
-    </div>
-  </div>
-<!-- end -->
+    </ul>
+  </article>
+  {% endfor %}
+</section>

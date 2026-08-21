@@ -1,35 +1,24 @@
-<!-- education -->
-  <div class="category edu">
-    <div class="cat-title">
-      <span class="cat-name">Education</span>
-      <span class="cat-head-line"></span>
-    </div>
-    <div class="cat-body">
+<section class="education" aria-labelledby="education-title">
+  <h2 class="section-title" id="education-title">Education</h2>
 
-    {% for e in site.data.edu %}
-      <div class="listing">
-        <div class="list-icon"></div>
-        <div class="list-item">
-          <div class="item-with-time">
-            <span class="item"><div class="title">{{ e.title }}</div></span>
-            <span class="time">{{ e.startTime }}<span class="longdash"></span>{{ e.endTime }}</span>
-          </div>
-          {% if e.deg %}
-          <div class="list-more flex-horizontal">
-            {% for d in e.deg %}
-            <span class="deg">{{ d }}</span>
-            {% endfor %}
-          </div>
-          {% endif %}
-          <div class="list-more flex-horizontal">
-          {% for c in e.courses %}
-            <span class="item">{{ c }}</span>
-          {% endfor %}
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-
+  {% for e in site.data.edu %}
+  <article class="entry">
+    <div class="entry-head">
+      <h3>{{ e.title | escape }}</h3>
+      <span class="time">
+        {{ e.startTime | escape }}{% if e.endTime and e.endTime != e.startTime %}&ndash;{{ e.endTime | escape }}{% endif %}
+      </span>
     </div>
-  </div>
-<!-- end -->
+    {% if e.deg %}
+    <ul class="tag-list">
+      {% for d in e.deg %}<li>{{ d | escape }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if e.courses %}
+    <ul class="tag-list muted">
+      {% for c in e.courses %}<li>{{ c | escape }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
