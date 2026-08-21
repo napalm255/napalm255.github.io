@@ -9,3 +9,10 @@ WORKDIR /srv/jekyll
 COPY Gemfile Gemfile.lock ./
 ENV BUNDLE_FROZEN=true
 RUN bundle install
+
+# Don't run as root: generated files land on a host bind mount, and root-owned
+# _site/ needs sudo to clean up. HOME must be writable for this uid or bundler
+# has nowhere to write. docker-compose.yml overrides the uid for hosts where
+# it isn't 1000.
+ENV HOME=/tmp
+USER 1000:1000

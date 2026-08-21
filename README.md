@@ -32,12 +32,12 @@ a rebuild:
 docker compose up --build
 ```
 
-**File ownership:** the base image runs as root, so `docker-compose.yml` maps the
-container user to uid/gid `1000` — otherwise generated files (`_site/`,
-`.jekyll-cache/`) land root-owned in your working tree. If your account isn't uid 1000,
-run `UID=$(id -u) GID=$(id -g) docker compose up` or set those in a `.env` file. If you
-use **rootless podman** instead of Docker, remove the `user:` line — container root
-already maps to your host user there.
+**File ownership:** the image runs as uid/gid `1000` rather than root, so generated
+files (`_site/`, `.jekyll-cache/`) are owned by you instead of needing `sudo` to clean
+up. If your account isn't uid 1000, run `UID=$(id -u) GID=$(id -g) docker compose up`
+or set those in a `.env` file. If you use **rootless podman** instead of Docker, remove
+the `user:` line from `docker-compose.yml` — container root already maps to your host
+user there.
 
 ## Deployment
 

@@ -2,14 +2,12 @@ services:
   site:
     build: .
     command: bundle exec jekyll serve --livereload --host 0.0.0.0
-    # The image runs as root, so without this every generated file (_site/,
-    # .jekyll-cache/) lands root-owned on the host bind mount.
+    # The image defaults to uid 1000 (see Dockerfile). Override here when your
+    # host account uses a different uid, so files generated into the bind mount
+    # are owned by you: UID=$(id -u) GID=$(id -g) docker compose up
     # Using rootless podman instead of Docker? Drop this line — container root
     # already maps to your host user there.
     user: "${UID:-1000}:${GID:-1000}"
-    environment:
-      # HOME=/root isn't writable for a non-root uid; bundler needs somewhere.
-      HOME: /tmp
     volumes:
       - .:/srv/jekyll
     ports:
