@@ -39,6 +39,19 @@ first.
   `{{ value | escape }}` when rendering anything from `_data/` so an `&` or `<` in
   content can't produce invalid HTML.
 
+## Code analysis
+
+SonarCloud analyzes this repo through **Automatic Analysis** (no CI workflow, no
+token); scope lives in `.sonarcloud.properties`. Two things to know before acting on
+its output:
+
+- **Check the analyzed revision before trusting findings.** Automatic Analysis posts
+  no commit check, so it can silently fail to run and its results can lag `master` by
+  several commits. Findings against code that no longer exists look identical to real
+  ones. Verify with the `project_analyses` API call documented in README.md.
+- **Don't add a Sonar CI workflow without turning Automatic Analysis off first** —
+  SonarCloud rejects the analysis when both are active.
+
 ## Keeping documentation current
 
 **Documentation must never drift from what's actually true.** Whenever a change

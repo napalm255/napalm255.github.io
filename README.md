@@ -52,6 +52,21 @@ versions — bumping a gem in it does not change what production builds with. Th
 `Dockerfile` uses the `jekyll/jekyll:pages` image for the same reason: it tracks the
 same `github-pages` gemset (currently Jekyll 3.10.0).
 
+## Code analysis
+
+[SonarCloud](https://sonarcloud.io/project/overview?id=napalm255_napalm255.github.io)
+analyzes this repo via **Automatic Analysis** — SonarCloud pulls the repo itself on
+push, so there is no CI workflow and no `SONAR_TOKEN` secret. Scope is configured in
+`.sonarcloud.properties`.
+
+Automatic Analysis posts no commit check, so a silent failure to run looks identical
+to a clean result. If findings look stale, confirm the analyzed revision matches
+`master`:
+
+```sh
+curl -s "https://sonarcloud.io/api/project_analyses/search?project=napalm255_napalm255.github.io&ps=1"
+```
+
 ## Structure
 
 ```
@@ -65,6 +80,7 @@ images/user.png     Avatar shown in the header (also used as the OG preview imag
 favicon.ico         Browser tab icon.
 CNAME               Custom domain for GitHub Pages. Do not delete.
 Gemfile(.lock)      Pins local dev to the github-pages gemset (see Deployment).
+.sonarcloud.properties  Scope config for SonarCloud Automatic Analysis.
 Dockerfile
 docker-compose.yml  Local dev container running `jekyll serve --livereload`.
 AGENTS.md           House rules for agents/contributors working in this repo.
